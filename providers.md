@@ -23,6 +23,7 @@ description: Complete list of LLM providers supported by any-llm including OpenA
 | [`fireworks`](https://fireworks.ai/api) | FIREWORKS_API_KEY | FIREWORKS_API_BASE | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
 | [`gemini`](https://ai.google.dev/gemini-api/docs) | GEMINI_API_KEY/GOOGLE_API_KEY | GOOGLE_GEMINI_BASE_URL | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [`github`](https://docs.github.com/en/github-models) | GITHUB_TOKEN | GITHUB_MODELS_API_BASE | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ |
+| [`gmi`](https://docs.gmicloud.ai/inference-engine/api-reference/llm-api-reference) | GMI_API_KEY | GMI_API_BASE | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ |
 | [`groq`](https://groq.com/api) | GROQ_API_KEY | GROQ_BASE_URL | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ |
 | [`huggingface`](https://huggingface.co/docs/huggingface_hub/package_reference/inference_client) | HF_TOKEN | HUGGINGFACE_API_BASE | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ |
 | [`inception`](https://inceptionlabs.ai/) | INCEPTION_API_KEY | INCEPTION_API_BASE | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ |
@@ -46,6 +47,7 @@ description: Complete list of LLM providers supported by any-llm including OpenA
 | [`requesty`](https://docs.requesty.ai) | REQUESTY_API_KEY | REQUESTY_API_BASE | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
 | [`sagemaker`](https://aws.amazon.com/sagemaker/) | AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY | SAGEMAKER_ENDPOINT_URL | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ |
 | [`sambanova`](https://sambanova.ai/) | SAMBANOVA_API_KEY | SAMBANOVA_API_BASE | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
+| [`telnyx`](https://developers.telnyx.com/docs/inference/getting-started) | TELNYX_API_KEY | TELNYX_API_BASE | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
 | [`together`](https://together.ai/) | TOGETHER_API_KEY | TOGETHER_API_BASE | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
 | [`vertexai`](https://cloud.google.com/vertex-ai/docs) |  | VERTEXAI_API_BASE | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [`vertexaianthropic`](https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/use-claude) |  | VERTEXAI_ANTHROPIC_API_BASE | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
